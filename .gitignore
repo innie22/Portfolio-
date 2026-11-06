@@ -1,0 +1,26 @@
+# Environment and Secrets
+.env
+.env*.local
+*.pem
+*.key
+
+# Dependencies and Package Caches
+node_modules/
+.npm/
+
+# Operating System Files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
+
+# Editor / IDE Caches
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

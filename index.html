@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio · Coming Soon</title>
+  <meta name="description" content="Personal portfolio coming soon. Digital Marketing work, ideas, and journey.">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%23D97952'/></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient background grain & soft glow -->
+  <div class="ambient-glow" aria-hidden="true"></div>
+  <div class="grain-overlay" aria-hidden="true"></div>
+
+  <div class="page-container">
+    <!-- Header / Navigation -->
+    <header class="site-header">
+      <div class="brand">
+        <!-- Customizable Personal Name / Monogram -->
+        <a href="#" class="brand-link">
+          <span class="brand-symbol">YN</span>
+          <span class="brand-name">Yen Nhi</span>
+        </a>
+      </div>
+
+      <div class="header-tag">
+        <span class="edition-label">PORTFOLIO 2026</span>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Section Label -->
+      <div class="editorial-label-wrapper animate-in" style="--delay: 0.1s;">
+        <span class="status-pulse-dot" aria-hidden="true"></span>
+        <span class="editorial-label">PERSONAL PORTFOLIO · 2026</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="main-headline animate-in" style="--delay: 0.25s;">
+        Something <span class="headline-italic">thoughtful</span> is in the making.
+      </h1>
+
+      <!-- Supporting Text -->
+      <p class="supporting-text animate-in" style="--delay: 0.4s;">
+        I'm currently building a space to showcase my work, ideas, and journey in Digital Marketing.
+      </p>
+
+      <!-- Coming Soon Status & Decorative Progress Visual -->
+      <div class="status-container animate-in" style="--delay: 0.55s;">
+        <div class="status-meta">
+          <span class="status-badge">COMING SOON</span>
+          <span class="status-phase">PHASE 01 / CRAFTING</span>
+        </div>
+
+        <!-- Decorative Progress Element -->
+        <div class="progress-wrapper" role="presentation" aria-label="Decorative loading indicator">
+          <div class="progress-track">
+            <div class="progress-bar"></div>
+            <div class="progress-shimmer"></div>
+          </div>
+          <div class="progress-counter">
+            <span class="progress-pip"></span>
+            <span class="progress-caption">IN PROGRESS</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer animate-in" style="--delay: 0.7s;">
+      <div class="footer-links">
+        <a href="mailto:contact@yennhi.design" class="footer-link contact-trigger" id="emailLink" title="Click to compose or copy">
+          <span class="link-label">contact@yennhi.design</span>
+          <svg class="link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="footer-link">
+          <span class="link-label">LinkedIn</span>
+          <svg class="link-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-copy">
+        <p>&copy; 2026 Yen Nhi. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Toast notification for copied email -->
+  <div class="toast-notification" id="toastNotification" aria-live="polite">
+    Email copied to clipboard
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
